@@ -72,6 +72,10 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ul {
   list-style-type: none;
@@ -139,6 +143,7 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+  text-align: center;
 }
 @media screen and (min-width: 992px) {
   .section-center {
@@ -169,6 +174,14 @@ main {
   font-size: 6rem;
   font-weight: bold;
 }
+/* If negative */
+.negative {
+  color: var(--clr-red-dark) !important;
+}
+.positive {
+  color: var(--clr-green-dark) !important;
+}
+
 .btn {
   text-transform: uppercase;
   background: transparent;
